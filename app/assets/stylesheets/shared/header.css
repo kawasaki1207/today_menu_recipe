@@ -1,0 +1,48 @@
+header{
+  width: 100vw;
+  padding: 1vh;
+}
+
+.top_nav{
+}
+
+.top_right{
+  list-style: none;
+  display: flex;
+}
+
+.login{
+}
+
+.sign_up{
+}
+
+.logout{
+}
+
+.mypege{
+}
+
+
+
+.menu_bar{
+}
+
+
+.menu_list{
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.food_list{
+}
+
+.recipes{
+}
+
+.recipe_list{
+}
+
+.recipe_post{
+}
