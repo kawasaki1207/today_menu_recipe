@@ -1,0 +1,20 @@
+<%# CSS...assets/stylesheets/shared/header.css %>
+<header>
+  <div class="top_nav">
+    <%= link_to image_tag("logo.png"), "/", class:"top_left"%>
+    <ul class="top_right">
+      <li><%= link_to "ログイン", "#", class:"login" %></li>
+      <li><%= link_to "新規登録", "#", class:"sign_up" %></li>
+      <li><%= link_to "ログアウト", "#", class:"logout" %></li> 
+      <li><%= link_to "マイページ", "#", class:"mypege" %></li> 
+    </ul>
+  </div>
+  <div class="menu_bar">
+    <ul class="menu_list">
+      <li><%= link_to "食材", "#", class:"food_list" %></li>
+      <li><%= link_to "料理を作る", "#", class:"recipes" %></li>
+      <li><%= link_to "レシピ一覧", "#", class:"recipe_list" %></li>
+      <li><%= link_to "レシピを投稿する", "#", class:"recipe_post" %></li>
+    </ul>
+  </div>
+</header>
