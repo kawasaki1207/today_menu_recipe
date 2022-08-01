@@ -1,26 +1,49 @@
-/* header{
+header{
   width: 100vw;
   padding: 1vh;
 }
 
 .top_nav{
+  display: flex;
+  justify-content: space-between;
 }
 
 .top_right{
   list-style: none;
   display: flex;
+  align-items: center;
 }
 
 .login{
+  color: gray;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 10px;
 }
 
 .sign_up{
+  color: gray;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 10px;
 }
 
 .logout{
+  color: gray;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 10px;
 }
 
 .mypege{
+  color: gray;
+  text-decoration: none;
+  border: 1px solid lightgray;
+  padding: 20px;
+  margin-right: 10px;
 }
 
 
@@ -36,13 +59,25 @@
 }
 
 .food_list{
+  color: dimgrey;
+  text-decoration: none;
 }
 
+
 .recipes{
+  color: dimgrey;
+  text-decoration: none;
+
 }
 
 .recipe_list{
+  color: dimgrey;
+  text-decoration: none;
+
 }
 
 .recipe_post{
-} */
+  color: dimgrey;
+  text-decoration: none;
+
+}
