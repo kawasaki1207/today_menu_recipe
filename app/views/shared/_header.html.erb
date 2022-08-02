@@ -2,10 +2,13 @@
   <div class="top_nav">
     <%= link_to image_tag("logo.png"), "/", class:"top_left"%>
     <ul class="top_right">
-      <li><%= link_to "ログイン", new_user_session_path, class:"login" %></li>
-      <li><%= link_to "新規登録", new_user_registration_path, class:"sign_up" %></li>
-      <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete,class:"logout" %></li> 
-      <li><%= link_to "マイページ", "#", class:"mypege" %></li> 
+      <% if user_signed_in? %>
+        <li><%= link_to "ログアウト", destroy_user_session_path, method: :delete,class:"logout" %></li> 
+        <li><%= link_to "マイページ", "#", class:"mypege" %></li> 
+      <% else %>
+        <li><%= link_to "ログイン", new_user_session_path, class:"login" %></li>
+        <li><%= link_to "新規登録", new_user_registration_path, class:"sign_up" %></li>
+      <% end %>
     </ul>
   </div>
   <div class="menu_bar">
