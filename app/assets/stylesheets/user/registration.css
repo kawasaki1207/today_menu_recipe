@@ -1,0 +1,13 @@
+.signup-nav{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: gray;
+}
+
+.new-btn{
+  color: gray;
+  border: 1px solid lightgray;
+  padding: 20px 40px;
+  margin-right: 10px;
+}
