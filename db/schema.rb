@@ -13,7 +13,8 @@
 ActiveRecord::Schema.define(version: 2022_08_02_163944) do
 
   create_table "user_foods", options: "ENGINE=InnoDB DEFAULT CHARSET=utf8", force: :cascade do |t|
-    t.date "buy_day", null: false
+    t.integer "buy_day", null: false
+    t.integer "buy_month", null: false
     t.integer "food_genre_id", null: false
     t.integer "food_name_id", null: false
     t.bigint "user_id", null: false

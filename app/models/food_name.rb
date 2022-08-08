@@ -149,4 +149,7 @@ class FoodName < ActiveHash::Base
     { id: 138, name: 'さくらんぼ' },
     { id: 139, name: 'ドライフルーツ' },
   ]
+
+  include ActiveHash::Associations
+  has_many :user_food
   end

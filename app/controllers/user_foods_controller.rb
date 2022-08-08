@@ -4,4 +4,8 @@ class UserFoodsController < ApplicationController
     
   end
 
+  def new
+    
+  end
+
 end

@@ -11,4 +11,7 @@ class FoodGenre < ActiveHash::Base
     { id: 9, name: '調味料' },
     { id: 10, name: '果物' }
   ]
+
+  include ActiveHash::Associations
+  has_many :user_food
   end
